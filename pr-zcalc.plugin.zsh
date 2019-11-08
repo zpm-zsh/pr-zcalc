@@ -6,7 +6,7 @@ PR_ZCALC_SUFFIX="${PR_ZCALC_SUFFIX:-""}"
 
 
 if (( $+functions[zpm] )); then
-  zpm zpm-zsh/colors
+  zpm zpm-zsh/colors,inline
 fi
 
 pr_zcalc="${PR_ZCALC_PREFIX}"
